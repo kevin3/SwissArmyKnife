@@ -10,3 +10,8 @@ conda create -n tensorflow_gpu pip python=3.8
 activate tensorflow_gpu
 conda install tensorflow-gpu keras-gpu matplotlib seaborn scikit-learn jupyter
 jupyter notebook
+
+conda create -n pytorch_310 python=3.10
+conda activate pytorch_310
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+conda install opencv jupyter matplotlib
