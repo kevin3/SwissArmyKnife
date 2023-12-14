@@ -13,5 +13,4 @@ jupyter notebook
 
 conda create -n pytorch_310 python=3.10
 conda activate pytorch_310
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-conda install opencv jupyter matplotlib
+conda install opencv jupyter matplotlib pandas seaborn scikit-learn tqdm pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
